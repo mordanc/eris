@@ -23,3 +23,10 @@ form div img {
 	text-align: center;
 	background-color: white;
 }
+
+#password-text a {
+	font-size: 1.5em;
+	color: green;
+	text-decoration: none;
+	font-family: VT323;
+}
