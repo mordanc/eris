@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'VT323', monospace;
+}
+#centerSignOn {
+	float: right;	
+	position: relative;
+	padding-top: 20%;
+	max-height: 100%;
+}
+#login {
+	vertical-align: top;
+	font-size: 2em;
+	border: 1px solid white;
+	background-color: black;
+	color: green;
+	font-family: VT323;
+}
+
+form div img {
+	height: 50px;
+	text-align: center;
+}
