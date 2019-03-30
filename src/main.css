@@ -1,6 +1,9 @@
 @font-face {
 	font-family: 'VT323', monospace;
 }
+body {
+	background-color: #263238;
+}
 #centerSignOn {
 	position: absolute;
 	top: 50%;
@@ -23,3 +26,26 @@ form div img {
 	text-align: center;
 	background-color: white;
 }
+#profileHolder {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#greenText {
+	color: green;
+}
+.profileWordPosition {
+	position: absolute;
+	color: white;
+	top: 220px;
+	left: 370px;
+	font-size: 3em;
+}
+#monospaceFont {
+	font-family: VT323;
+}
+#profilePlacement {
+	position: absolute;
+	left: 24px;
+	top: 30px;
+	}

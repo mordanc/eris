@@ -4,13 +4,19 @@
 	<!-- Monospace Font -->
 	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="main.css">
-	<title>S E C U R E</title>
+	<title>No Access</title>
 </head>
-<body style="background-color: #263238">
+<body>
 
 	<form>
 			<div id="centerSignOn">
-			<img src="../res/erisLogo.svg"><input type="password" id="login" name="password"><img src="../res/loginArrow.svg" id="arrowStyle"></div>
+			<img src="../res/erisLogo.svg"><input type="password" id="login" name="password"><a href="profile.html"><img src="../res/loginArrow.svg" id="arrowStyle"></a></div>
 	</form>
+	<script>
+		$(document).ready(function() {
+			$("centerSignOn").animate({paddingTop:"500px"});
+		});
+	</script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </body>
 </html>
