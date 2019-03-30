@@ -1,11 +1,19 @@
 @font-face {
 	font-family: 'VT323', monospace;
 }
+body {
+	/* background-color: #263238; */
+	background-image: url(../res/moon.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100vh;
+	background-position-x: -30vw;
+}
 #centerSignOn {
 	position: absolute;
 	top: 50%;
 	justify-content: right;
 	right: 0;
+	margin-right: 30px;
 }
 #login {
 	vertical-align: top;
@@ -23,7 +31,31 @@ form div img {
 	text-align: center;
 	background-color: white;
 }
+.main-container {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-shrink: 1;
+	flex-grow: 0;
+}
+.placeholder-image {
+	border: 1px solid white;
+	color: green;
+	font-size: 2em;
+	text-align: center;
 
+	width: 400px;
+	height: 400px;
+	margin-right: 150px;
+}
+.placeholder-text {
+	border: 1px solid white;
+	color: green;
+	font-size: 2em;
+	text-align: center;
+
+	width: 1200px; 
+	height: 900px;
+}
 #password-text a {
 	font-size: 1.5em;
 	color: green;
